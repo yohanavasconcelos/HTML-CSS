@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+:root{
+    --cor-fundo-consultas:#FFFFFF;
+    --cor-secundaria:#A3A3A3;
+    --cor-fundo: #ECECEC;
+    --fonte-principal:'Montserrat', sans-serif;
+    --cor-titulo:#464646;
+    --cor-endereco:#4894FF;
+    --cor-layout: #6D6D6D;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 0.8em;
+}
+
+.cabecalho{ 
+    display: flex;
+}
+.cabecalho__perfil__foto{
+    border-radius:50%;
+    width: 4em;
+    height: 4em;
+    margin-top: 1em;
+    margin-left: 0.7em;
+}
+
+.cabecalho__perfil__informacao{
+    margin-left: 1.5em;
+    margin-top: 0.4em;
+}
+
+.cabecalho__titulo{
+    font-weight: 700;
+    font-size: 1.3em;
+    color: var(--cor-titulo);
+}
+
+.cabecalho__consulta{
+    margin-top: -1em;
+    color: var(--cor-secundaria);
+    font-weight: 400;
+}
+
+.consulta__titulo{
+    padding-left: 0.7em;
+    font-weight: 700;
+    font-size: 1em;
+    color: var(--cor-titulo);
+}
+
+
+.consulta__cliente{
+    background-color: var(--cor-fundo-consultas);
+    border-radius: 0.5em;
+    width: 25em;
+    height: 12em;
+    top: 11.7em;
+    margin-left: 1em;
+    padding-top: 0.6em;
+    margin-bottom: 1.5em;
+}
+
+.consulta__sobre{
+    display: flex;
+}
+
+.consulta__perfil{
+    border-radius:50%;
+    width: 2em;
+    height: 2em;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.nome-mensagem{
+    display: flex;
+}
+
+.consulta__nome{
+    margin-bottom: 1em;
+    margin-top: 0.7em;
+    font-weight: 700;
+    color: var(--cor-titulo);
+}
+
+.mensagem-luciana{
+    width: 2em;
+    height: 2em;
+    margin-top: 0.8em;
+    margin-left: 11em;
+}
+
+.consulta__remoto{
+    display: flex;
+    margin-left: 2em;
+    margin-top: -1.5em;
+    color: var(--cor-secundaria);
+}
+
+.camera{
+    margin-left: 2em;
+    margin-top: 0.9em;
+    width: 0.6em;
+    height: 0.5em;
+}
+
+.consulta-remota{
+    padding-left: 0.4em;
+    margin-top: 0.9em;
+    font-weight: 400;
+    font-size: 0.75em;
+}
+
+.separacao{
+    width: 25em;
+}
+
+.horario-luciana{
+    font-size: 0.75em;
+    margin-top: -10.7em;
+    margin-left: 3em;
+    color: var(--cor-titulo);
+}
+
+.ligacoes{
+    display: flex;
+    margin-bottom: 1.6em;
+}
+
+.ancora{
+    text-decoration: none;
+}
+
+.video{
+    color: var(--cor-fundo-consultas);
+    border: 1px solid #FFB050;
+    background:#FFB050;
+    margin-top: -0.2em;
+    height: 2.8em;
+    border-radius: 0.5em;
+    text-align: center;
+    margin-left: 2.5em;
+    padding: 1em 1em 0;
+}
+
+.audio{
+    color: var(--cor-titulo);
+    border: 1px solid var(--cor-fundo);
+    background:var(--cor-fundo-consultas);
+    margin-top: -0.2em;
+    height: 2.8em;
+    border-radius: 0.5em;
+    text-align: center;
+    margin-left: 2.5em;
+    padding: 1em 1em 0;
+}
+
+.mensagem-larissa{
+    width: 2em;
+    height: 2em;
+    margin-top: 0.8em;
+    margin-left: 9em;
+}
+
+.localizador{
+    margin-left: 2em;
+    margin-top: 0.87em;
+    width: 0.6em;
+    height: 0.6em;
+}
+
+.horario-larissa{
+    font-size: 0.75em;
+    margin-top: 0.2em;
+    margin-left: 1.5em;
+    color: var(--cor-titulo);
+}
+
+.endereco{
+    color: var(--cor-fundo-consultas);
+    border: 1px solid var(--cor-endereco);
+    background:var(--cor-endereco);
+    margin-top: -0.2em;
+    height: 2.8em;
+    border-radius: 0.5em;
+    text-align: center;
+    margin-left: 2em;
+    padding: 1em 1em 0;
+    margin-right: 1.6em;
+    margin-bottom: 2.5em;
+}
+
+.mensagem-marcos{
+    width: 2em;
+    height: 2em;
+    margin-top: 0.8em;
+    margin-left: 9em;
+}
+
+.horario-marcos{
+    font-size: 0.75em;
+    margin-top: 0.2em;
+    margin-left: 1.5em;
+    color: var(--cor-titulo);
+}
+
+.video-marcos{
+    color: var(--cor-fundo-consultas);
+    border: 1px solid #FFB050;
+    background:#FFB050;
+    margin-top: -0.2em;
+    height: 2.8em;
+    border-radius: 0.5em;
+    text-align: center;
+    margin-left: 1.5em;
+    padding: 1em 1em 0;
+}
+
+.horario-luciana-amanha{
+    font-size: 0.75em;
+    margin-top: 0.2em;
+    margin-left: 1.5em;
+    color: var(--cor-titulo);
+}
+
+.video-luciana{
+    color: var(--cor-fundo-consultas);
+    border: 1px solid #FFB050;
+    background:#FFB050;
+    margin-top: -0.2em;
+    height: 2.8em;
+    border-radius: 0.5em;
+    text-align: center;
+    margin-left: 1.3em;
+    padding: 1em 1em 0;
+}
+
+
+.roda-pe__menu{
+    position: fixed;
+    background-color: var(--cor-fundo-consultas);
+    border-radius: 0.5em 0.5em 0 0;
+    width: 26em;
+    height: 4em;
+    top: 11.7em;
+    padding-top: 0.6em;
+    padding-left: 1.5em;
+    margin-top: 32em;
+}
+
+.roda-pe__menu-flutuante{
+    position:fixed;
+    width: 2em;
+    height: 2em;
+    bottom: 6.5em;
+    right:40px;background-color:var(--cor-endereco);
+    color:#FFF;border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index:1000;
+    text-decoration: none;
+}
+
+.mais-ponto-flutuante{
+    margin-top: 0.36em;
+}
+
+.roda-pe__informacoes{
+    padding-right: 2em;
+    
+}
+
+.roda-pe__desktop{
+    display: none;
+}
+
+.float{
+    display: none;
+    
+}
+
+
+
+@media screen  and (min-width: 481px){
+  
+    .coluna2__localizacao{
+        margin-top: -42.2em;
+    }
+    .coluna2{
+        margin-left: 32em;
+    }
+    
+    .endereco-clara{
+        width: 35%;
+    }
+
+    .horario-clara{
+        margin-top: 0.2em;
+        margin-left: 1em;
+    }
+
+    .endereco-clara-tablet{
+        margin-top: 1em;
+        width: 78%;
+    }
+
+    .horario-tablet, .video-tablet{
+        margin-left: 34em;
+    }
+
+    .horario-tablet{
+        padding-left: 10.5em;
+    }
+
+    .coluna2__amanha{
+        margin-top: -56.4em;
+    }
+
+    .roda-pe__menu{
+        width: 58em;
+        padding-left: 34%;
+    }
+
+    .roda-pe__informacoes{
+        padding-right: 0.8em;
+        
+    }
+
+    .roda-pe__menu-flutuante{
+        top: 16.5em;
+    }
+
+    .float{
+        display: none;
+        
+    }
+   
+}
+
+@media screen  and (min-width: 1025px){
+   .cabecalho{
+        padding-left: 8.8em;
+        margin-top: -122em;
+   }
+
+   .consulta__titulo{
+        padding-left: 10em;
+   }
+
+   .consulta__cliente{
+        margin-left: 9.8em;
+   }
+    
+    .luciana-pc{
+        margin-left: 40%;
+        margin-top: 15.5em;
+    }
+
+    .marcos-correia-pc{
+        margin-left: 40%;
+    }
+    
+    .larissa-pc{
+        margin-left: 70%;
+        margin-top: -14.2em;
+    }
+
+    .marcos-pc{
+        margin-left: 70%;
+        margin-top: -14.2em;
+    }
+
+    .consulta__cliente{
+        width: 30em;
+        height: 12em;
+        top: 11.7em;
+    }
+
+    .horario-luciana{
+        margin-left: 14em;
+    }
+
+    .video,.video-marcos,.video-luciana{
+        margin-top: -0.2em;
+        height: 2.5em;
+        border-radius: 0.5em;
+        margin-left: 11.6em;
+        padding: 1em 2.2em 0;
+    }
+    
+    .audio{
+        margin-top: -0.2em;
+        height: 2.8em;
+        margin-left: 2.5em;
+        padding: 1em 2.2em 0;
+    }
+
+    .horario-tablet{
+        margin-left: 46em;
+    }
+
+    .video-tablet{
+        margin-left: 43em;
+    }
+
+    .mensagem-luciana{
+        margin-left: 15em;
+    }
+    
+    .mensagem-larissa{
+        margin-left: 13.5em;
+    }
+    
+    .mensagem-marcos{
+        margin-left: 14em;
+    }
+
+    .video-marcos{
+        margin-left: 1.5em;
+    }
+
+    .Luciana{
+        margin-left: 40%;
+        margin-top: 43.8em;
+    }
+    
+    .larissa,.perfil-marcos{
+        margin-left: 40%;
+    }
+
+    .perfil-larissa{
+        margin-left: 70%;
+        margin-top: -42.4em;
+    }
+
+    .marcos{
+        margin-left: 70%;
+        margin-top: -28em;
+    }
+
+    .endereco{
+        margin-left: 1em;
+        width: 85%;
+    }
+
+    .endereco-clara{
+        margin-left: 11.3em;
+        width: 24%;
+    }
+
+    .horario-luciana-amanha{
+        margin-left: 1.2em;
+    }
+
+    .video-luciana{
+        margin-left: 1.4em;
+    }
+
+    .quarta{
+        margin-top: 15em;
+    }
+
+    .localizacao,.desktop-luciana{
+        margin-left: 40%;
+    }
+
+    .desktop-luciana{
+        margin-top: 44em;
+    }
+
+    .desktop-larissa{
+        margin-left: 70%;
+        margin-top: -42.3em;
+    }
+    .desktop-clara{
+        margin-left: 104%;
+        margin-top: -28em;
+    }   
+    
+    .roda-pe{
+        display: none;
+    }
+
+    .roda-pe__menu-flutuante{
+        margin-top: 17em;
+    }
+
+    .menu{
+        background-color: var(--cor-fundo-consultas);
+        margin: -0.6em 95em -10em -0.6em;
+        height: 120em;
+        padding-top: 2em;
+        padding-left: 1em;
+    }
+
+    .menu-informacoes{
+        display: flex;
+        margin-top: 1em;
+    }
+
+    .menu__informacoes,.consultas{
+        margin-top: 0.1em;
+        font-family: var(--fonte-principal);
+        font-weight: 400;
+        font-size: 0.75em;
+    }
+
+    .consultas{
+        color: var(--cor-endereco);
+    }
+
+    .menu__informacoes{
+        color: var(--cor-titulo);
+    }
+
+    .estados{
+        border: 1px solid var(--cor-fundo-consultas);
+        border-radius: 0.7em;
+        background: var(--cor-fundo-consultas);
+        width: 20em;
+        height: 18em;
+    }
+
+    .estados__titulos{
+        padding-left: 2em;
+        padding-top: 1em;
+        font-weight: 700;
+        font-size: 1.4em;
+    }
+
+    .estados__paragrafos{
+        list-style: none;
+        text-decoration: none;
+        color: var(--cor-layout);
+        padding-top: 0.8em;
+    }
+
+    .select{
+        margin-left: 25em;
+        padding-left: 2em;
+        margin-top: -19em;
+    }
+
+    .caixa{
+        width: 15em;
+        height: 3em;
+        border-radius: 0.5em;
+    }
+
+    
+    .data-hora{
+        padding-left: 20em;
+        margin-top: -19em;
+    }
+
+    .datetime{
+        height: 2.8em;
+        border-radius: 0.5em;
+    }
+
+    .botao{
+        margin-left: 38em;
+        margin-top: -10em;
+    }
+}
